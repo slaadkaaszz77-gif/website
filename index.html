@@ -1,32 +1,99 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Мой первый сайт</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт Ширин — Обо мне</title>
+
     <style>
         body {
-            background: #eaf2f8;
-            font-family: Arial;
+            background: linear-gradient(135deg, #dbeafe, #fce7f3);
+            font-family: Arial, sans-serif;
             text-align: center;
-            padding: 50px;
+            padding: 40px 20px;
+            color: #334155;
         }
-        h1 { color: #2563eb; }
+
         .card {
             background: white;
-            padding: 30px;
-            border-radius: 15px;
+            max-width: 650px;
+            margin: auto;
+            padding: 35px;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+        }
+
+        h1 {
+            color: #7c3aed;
+            font-size: 32px;
+        }
+
+        h2 {
+            color: #2563eb;
+            margin-top: 25px;
+        }
+
+        p {
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #c4b5fd;
+        }
+
+        a {
+            display: inline-block;
+            margin: 8px;
+            padding: 12px 20px;
+            background: #7c3aed;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+
+        a:hover {
+            background: #2563eb;
         }
     </style>
 </head>
+
 <body>
+
     <div class="card">
-        <h1>Привет! Это мой сайт</h1>
+
+        <h1>Добро пожаловать на мой сайт!</h1>
+
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400"
+             alt="Моя фотография">
+
         <h2>Обо мне</h2>
-        <p>Меня зовут ______.</p>
-        <p>Я студент Кыргызского экономического университета.</p>
+
+        <p>Меня зовут Ширин.</p>
+
+        <p>Я студентка Кыргызского экономического университета.</p>
+
         <h2>Мои интересы</h2>
-        <p>Информационные технологии, ИИ и веб-разработка.</p>
+
+        <p>Информационные технологии, искусственный интеллект
+        и веб-разработка.</p>
+
+        <h2>Полезные сайты</h2>
+
+        <a href="https://www.google.com" target="_blank">Google</a>
+
+        <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>
+
+        <a href="https://www.w3schools.com" target="_blank">W3Schools</a>
+
+        <h2>Спасибо за посещение!</h2>
+
     </div>
+
 </body>
 </html>
-
